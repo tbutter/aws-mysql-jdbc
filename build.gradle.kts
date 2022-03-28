@@ -212,7 +212,7 @@ tasks.withType<Checkstyle>().configureEach {
 
 dependencies {
     testImplementation("org.apache.commons:commons-dbcp2:2.8.0")
-    testImplementation("com.amazonaws:aws-java-sdk-rds:1.12.128")
+    testImplementation("com.amazonaws:aws-java-sdk-rds:1.12.187")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.8.2")
